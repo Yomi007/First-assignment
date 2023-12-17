@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tilt Neon;
+}
+
+body{
+    margin: 2rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction:row;
+    background-color: #121212;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    color: #ffffff;
+    list-style: none;
+    padding: 1rem 1rem;
+    gap: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%
+}
+.heading-text{
+    margin-bottom: 2rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+section{
+    width: 40%;
+    margin: 2rem auto;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 0.5rem; 
+}
+
+input {
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+}
+#gender{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+
+#education-level{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+#country{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+#employment-status{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+
+#course-of-study{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+#school{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+#how-heard{
+    height: auto;
+    width: auto;
+    border: 1px solid #c4c4c4;
+    padding :1rem;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.proceed{
+    padding: 1rem 2rem;
+    border: none;background-color: #8620b5;
+    color: #ffffff;
+
+}
+
+.sign-in{
+    text-align: center;
+}
